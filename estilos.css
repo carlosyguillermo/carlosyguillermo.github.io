@@ -1,0 +1,91 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(240, 240, 240);
+    font-family: sans-serif;
+    font-size: 15px;
+}
+img{
+    margin-left: 20%;
+    border: 2px solid black;
+}
+#titulo{
+    background-color: rgb(31, 30, 30);
+    color: rgb(255, 255, 255);
+    padding: 5%;
+}
+.descripcion{
+    font-family: "times new roman", serif;
+    text-align: center;
+    font-size: 1.5em;
+}
+.texto{
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+ .espacio{
+     color: rgb(255, 255, 255);
+width: 75%;
+margin-left: 5%;
+padding: 20px;
+}
+ .boton {
+background-color: rgb(255, 255, 255);
+padding: 10px 10px;
+text-align: center;
+font-family: fantasy;
+color: rgb(0, 0, 0);
+display: inline-block;
+font-size: 2em;
+border: 3px solid black;
+width: 220px;
+margin-left: 5%;
+ }
+ #lista{
+ margin-left:20%;
+ margin-top: 5%;
+ }
+.foto{
+    text-align: center;
+    padding:2px ;
+    margin-left:  0%;
+}
+#albacete{
+    padding:10px;
+}
+#jaen{
+    padding: 10px;
+}
+h1{
+   text-align: center;
+   padding: 20px;
+   font-family: monospace;
+   font-style: normal;
+   font-size: 2.5em;
+}
+#contenidos{
+   color: rgb(0, 0, 0);
+   text-align: center;
+   padding: 20px;
+   
+}
+.patrocinadores{
+   border: 0px;
+   width: 30%;
+   
+}
+.patrocinadores1{
+   display: flex;
+   margin-right: 15%;
+   margin-bottom: 25%;
+}
+#patro{
+   text-align: center;
+   font-size: 1.5em;
+   margin-bottom: 20px;
+   font-style: "times new roman", serif;
+  
+   
+}
