@@ -1,16 +1,30 @@
 html{
     scroll-behavior: smooth;
+    overflow-x:hidden;
 }
 body{
     background-color: rgb(240, 240, 240);
     font-family: sans-serif;
     font-size: 15px;
 }
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 img{
     margin-left: 20%;
     border: 2px solid black;
 }
 #titulo{
+    width: 100%;
     background-color: rgb(31, 30, 30);
     color: rgb(255, 255, 255);
     padding: 5%;
@@ -27,7 +41,7 @@ img{
 }
  .espacio{
      color: rgb(255, 255, 255);
-width: 75%;
+width: 100%;
 margin-left: 5%;
 padding: 20px;
 }
@@ -54,6 +68,7 @@ margin-left: 5%;
 }
 #albacete{
     padding:10px;
+    margin-bottom: 5%;
 }
 #jaen{
     padding: 10px;
